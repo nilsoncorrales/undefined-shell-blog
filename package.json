@@ -1,0 +1,16 @@
+{
+  "name": "practica-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.3",
+    "vite": "^4.4.11"
+  }
+}
