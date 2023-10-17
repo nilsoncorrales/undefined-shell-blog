@@ -1,0 +1,17 @@
+
+.autor  {
+    display: flex;
+    align-items: center;
+    gap: 0 12px;
+}
+
+.autor img {
+    width: 100%;
+    max-width: 32px;
+    max-height: 32px;
+    border-radius: 50%;
+}
+
+.autor span {
+    color: var(--color-back-pearl-900);
+}
