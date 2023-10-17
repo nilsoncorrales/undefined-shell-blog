@@ -1,0 +1,45 @@
+@use "tools";
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 24px;
+    width: 100%;
+}
+
+.post-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px 0;
+
+    @include tools.desktop {
+        padding: 0;
+    }
+
+}
+
+.post-list {
+    display: grid;
+    gap: 32px 0;
+
+    @include tools.desktop {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(560px, auto) minmax(430px, auto);
+        gap: 80px 24px;
+    }
+}
+
+.main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    @include tools.container-width;
+    @include tools.desktop {
+        flex-direction: row;
+    }
+    
+}
