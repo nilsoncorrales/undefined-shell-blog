@@ -11,236 +11,253 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="src/styles/main.scss">
+    <script type="module" src="src/scripts/main.js" defer></script>
     <title>Undefined Shell Blog</title>
 </head>
 
 <body>
-    <header class="main-navbar">
-        <img src="src/images/logos/undefined-shell.svg" alt="Logo de Undefined Shell">
-        <nav>
-            <ul class="nav-list">
-                <li><a href="" class="text-button is-active text-botton-md font-bold">Inicio</a></li>
-                <li><a href="" class="text-button text-botton-md font-bold">Subscribirse</a></li>
-                <li><button class="button button-primary">Undefined Acadamy</button></li>
-                <li><button class="button button-secondary">Discord</button></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="featured-post">
-
-        </section>
-        <section class="post-list-container">
-            <nav class="tags-filter">
-                <div class="filter-list-scroll-hider">
-                    <ul class="nav-list filter-list">
-                        <li class="is-active-filter"><a class="filter paragraph paragraph-sm font-bold" href="#">Todos</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Html</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Css</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Javascript</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Web componnets</a></li>
-                        <li><a class="filter paragraph paragraph-sm font-bold" href="#">Sistema de diseño</a></li>
-                    </ul>
-                </div>
-                
-                <input type="search" class="input" placeholder="Buscar">
+    <div class="main-container">
+        <header class="main-navbar">
+            <img src="src/images/logos/undefined-shell.svg" alt="Logo de Undefined Shell">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="" class="text-button is-active text-botton-md font-bold">Inicio</a></li>
+                    <li><a href="" class="text-button text-botton-md font-bold">Subscribirse</a></li>
+                    <li><button class="button button-primary">Undefined Acadamy</button></li>
+                    <li><button class="button button-secondary">Discord</button></li>
+                </ul>
             </nav>
-            <div class="post-list">
-
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag"><a href="#">Web Components</a></span>
-                                    <span class="tag"><a href="#">CSS</a></span>
-                                </div>
-                                <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza...</p>
-                        </div>
-                        
-                        <footer>
-                            <div class="autor">
-                                <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
-                                <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
-                            </div>
-                            <span class="reading-time paragraph paragraph-xs font-regular"> 7 min lectura</span>
-                        </footer>
-                    </section>
+        </header>
+        <main>
+            <section class="featured-post">
+                <article>
                 </article>
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag"><a href="#">Web Components</a></span>
-                                    <span class="tag"><a href="#">CSS</a></span>
-                                </div>
-                                <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza...</p>
-                        </div>
-                        
-                        <footer>
-                            <div class="autor">
-                                <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
-                                <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                <div class="button-container">
+                    <button>Atras</button>
+                    <button>Adelante</button>
+                </div>
+    
+            </section>
+            
+            <section class="post-list-container">
+                <nav class="tags-filter">
+                    <div class="filter-list-scroll-hider">
+                        <ul class="nav-list filter-list">
+                            <li class="is-active-filter"><a class="filter paragraph paragraph-sm font-bold" href="#">Todos</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">Html</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">Css</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">Javascript</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">Web componnets</a></li>
+                            <li><a class="filter paragraph paragraph-sm font-bold" href="#">Sistema de diseño</a></li>
+                        </ul>
+                    </div>
+                    
+                    <input type="search" class="input" placeholder="Buscar">
+                </nav>
+                <div class="post-list">
+    
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag"><a href="#">Web Components</a></span>
+                                        <span class="tag"><a href="#">CSS</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
+                                    <time class="help-text paragraph paragraph-xs font-regular" datetime="2023-01-24"> 2023-01-24</time>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza...</p>
                             </div>
-                            <span class="reading-time paragraph paragraph-xs font-regular"> 7 min lectura</span>
-                        </footer>
-                    </section>
-                </article>
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag"><a href="#">Web Components</a></span>
-                                    <span class="tag"><a href="#">CSS</a></span>
+                            
+                            <footer>
+                                <div class="autor">
+                                    <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
+                                    <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
                                 </div>
-                                <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. </p>
-                        </div>
-                        
-                        <footer>
-                            <div class="autor">
-                                <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
-                                <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                                <span class="help-text paragraph paragraph-xs font-regular"> 7 min lectura</span>
+                            </footer>
+                        </section>
+                    </article>
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag"><a href="#">Web Components</a></span>
+                                        <span class="tag"><a href="#">CSS</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
+                                    <time class="help-text paragraph paragraph-xs font-regular" datetime="2023-03-10"> 2023-03-10</time>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza...</p>
                             </div>
-                            <span class="reading-time paragraph paragraph-xs font-regular"> 7 min lectura</span>
-                        </footer>
-                    </section>
-                </article>
-
-                <article class="card card-extended">
-                    <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag tag-secondary"><a href="#">Web Components</a></span>
-                                    <span class="tag tag-secondary"><a href="#">CSS</a></span>
+                            
+                            <footer>
+                                <div class="autor">
+                                    <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
+                                    <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
                                 </div>
-                                <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Han pasado muchos meses desde que escribí mi primer artículo en español sobre Design Tokens, y desde entonces no solo han evolucionado, sino que cada vez se adaptan y se vuelven una parte fundamental de un sistema de diseño.</p>
-                        </div>
-                        
-                        <footer>
-                            <div class="autor">
-                                <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
-                                <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                                <span class="help-text paragraph paragraph-xs font-regular"> 7 min lectura</span>
+                            </footer>
+                        </section>
+                    </article>
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag"><a href="#">Web Components</a></span>
+                                        <span class="tag"><a href="#">CSS</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
+                                    <time class="help-text paragraph paragraph-xs font-regular" datetime="2023-04-12"> 2023-04-12</time>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. </p>
                             </div>
-                            <span class="reading-time paragraph paragraph-xs font-regular"> 7 min lectura</span>
-                        </footer>
-                    </section>
-                </article>
-
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag"><a href="#">Web Components</a></span>
-                                    <span class="tag"><a href="#">CSS</a></span>
+                            
+                            <footer>
+                                <div class="autor">
+                                    <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
+                                    <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
                                 </div>
-                                <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza...</p>
-                        </div>
-                        
-                        <footer>
-                            <div class="autor">
-                                <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
-                                <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                                <span class="help-text paragraph paragraph-xs font-regular"> 7 min lectura</span>
+                            </footer>
+                        </section>
+                    </article>
+    
+                    <article class="card card-extended">
+                        <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag tag-secondary"><a href="#">Web Components</a></span>
+                                        <span class="tag tag-secondary"><a href="#">CSS</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
+                                    <time class="help-text paragraph paragraph-xs font-regular" datetime="2023-01-12"> 2023-01-12</time>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Han pasado muchos meses desde que escribí mi primer artículo en español sobre Design Tokens, y desde entonces no solo han evolucionado, sino que cada vez se adaptan y se vuelven una parte fundamental de un sistema de diseño.</p>
                             </div>
-                            <span class="reading-time paragraph paragraph-xs font-regular"> 7 min lectura</span>
-                        </footer>
-                    </section>
-                </article>
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag"><a href="#">Web Components</a></span>
-                                    <span class="tag"><a href="#">CSS</a></span>
+                            
+                            <footer>
+                                <div class="autor">
+                                    <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
+                                    <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
                                 </div>
-                                <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza...</p>
-                        </div>
-                        
-                        <footer>
-                            <div class="autor">
-                                <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
-                                <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                                <span class="help-text paragraph paragraph-xs font-regular"> 7 min lectura</span>
+                            </footer>
+                        </section>
+                    </article>
+    
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag"><a href="#">Web Components</a></span>
+                                        <span class="tag"><a href="#">CSS</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
+                                    <time class="help-text paragraph paragraph-xs font-regular" datetime="2023-08-25"> 2023-08-25</time>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza...</p>
                             </div>
-                            <span class="reading-time paragraph paragraph-xs font-regular"> 7 min lectura</span>
-                        </footer>
-                    </section>
-                </article>
-                <article class="card">
-                    <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag"><a href="#">Web Components</a></span>
-                                    <span class="tag"><a href="#">CSS</a></span>
+                            
+                            <footer>
+                                <div class="autor">
+                                    <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
+                                    <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
                                 </div>
-                                <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. </p>
-                        </div>
-                        
-                        <footer>
-                            <div class="autor">
-                                <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
-                                <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                                <span class="help-text paragraph paragraph-xs font-regular"> 7 min lectura</span>
+                            </footer>
+                        </section>
+                    </article>
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag"><a href="#">Web Components</a></span>
+                                        <span class="tag"><a href="#">CSS</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
+                                    <time class="help-text paragraph paragraph-xs font-regular" datetime="2023-10-1"> 2023-10-1</time>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. Estas son necesarias porque, el CSS, al carecer de un sistema de módulos conveniente y debido a su naturaleza...</p>
                             </div>
-                            <span class="reading-time paragraph paragraph-xs font-regular"> 7 min lectura</span>
-                        </footer>
-                    </section>
-                </article>
-
-                <article class="card card-extended">
-                    <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
-                    <section>
-                        <div class="card-content">
-                            <header>
-                                <div class="tags">
-                                    <span class="tag tag-secondary"><a href="#">Web Components</a></span>
-                                    <span class="tag tag-secondary"><a href="#">CSS</a></span>
+                            
+                            <footer>
+                                <div class="autor">
+                                    <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
+                                    <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
                                 </div>
-                                <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
-                            </header>
-                            <p class="paragraph paragraph-sm font-regular">Han pasado muchos meses desde que escribí mi primer artículo en español sobre Design Tokens, y desde entonces no solo han evolucionado, sino que cada vez se adaptan y se vuelven una parte fundamental de un sistema de diseño.</p>
-                        </div>
-                        
-                        <footer>
-                            <div class="autor">
-                                <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
-                                <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                                <span class="help-text paragraph paragraph-xs font-regular"> 7 min lectura</span>
+                            </footer>
+                        </section>
+                    </article>
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag"><a href="#">Web Components</a></span>
+                                        <span class="tag"><a href="#">CSS</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
+                                    <time class="help-text paragraph paragraph-xs font-regular" datetime="2023-05-15"> 2023-05-15</time>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Las Arquitecturas de CSS nos ayudan a escalar y mantener nuestras hojas de estilo en el tiempo. </p>
                             </div>
-                            <span class="reading-time paragraph paragraph-xs font-regular"> 7 min lectura</span>
-                        </footer>
-                    </section>
-                </article>
-                
-            </div>
-        </section>
-        <aside>APRENDE A PROGRAMAR</aside>
-    </main>
-    <footer>FOOTER</footer>
+                            
+                            <footer>
+                                <div class="autor">
+                                    <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
+                                    <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                                </div>
+                                <span class="help-text paragraph paragraph-xs font-regular"> 7 min lectura</span>
+                            </footer>
+                        </section>
+                    </article>
+    
+                    <article class="card card-extended">
+                        <img src="https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Imagen de un post">
+                        <section>
+                            <div class="card-content">
+                                <header>
+                                    <div class="tags">
+                                        <span class="tag tag-secondary"><a href="#">Web Components</a></span>
+                                        <span class="tag tag-secondary"><a href="#">CSS</a></span>
+                                    </div>
+                                    <h2 class="heading heading-sm font-bold">Evolución de las Arquitecturas y Metodologías de CSS</h2>
+                                    <time class="help-text paragraph paragraph-xs font-regular" datetime="2023-10-17"> 2023-10-17</time>
+                                </header>
+                                <p class="paragraph paragraph-sm font-regular">Han pasado muchos meses desde que escribí mi primer artículo en español sobre Design Tokens, y desde entonces no solo han evolucionado, sino que cada vez se adaptan y se vuelven una parte fundamental de un sistema de diseño.</p>
+                            </div>
+                            
+                            <footer>
+                                <div class="autor">
+                                    <img src="https://i.pravatar.cc/300" alt="Avatar de autor">
+                                    <span class="paragraph paragraph-xs font-bold">Guillermo Rodas</span>
+                                </div>
+                                <span class="help-text paragraph paragraph-xs font-regular"> 7 min lectura</span>
+                            </footer>
+                        </section>
+                    </article>
+    
+                </div>
+            </section>
+        </main>
+        
+    </div>
+    <footer></footer>    
 </body>
 
 </html>

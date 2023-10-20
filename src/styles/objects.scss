@@ -1,9 +1,16 @@
 @use "tools";
 
+.main-container {
+    padding: var(--container-padding);
+
+    @include tools.container-width;
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
+    flex-wrap: wrap;
     gap: 24px;
     width: 100%;
 }
@@ -20,7 +27,6 @@
 }
 
 .post-list {
-    container-type: inline-size;
     display: grid;
     gap: 32px 0;
 
@@ -36,11 +42,45 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    width: 100%;
     padding: 20px 0;
+
     @include tools.container-width;
+
     @include tools.desktop {
         flex-direction: row;
     }
     
+}
+
+.featured-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 24px 0;
+    margin-bottom: 90px;
+}
+
+.featured-post article {
+    height: 630px;
+    width: 100%;
+    background-color: var(--color-aquarius-100);
+}
+.featured-post .button-container {
+    display: flex;
+    gap: 32px;
+}
+.featured-post button {
+    width: 54px;
+    height: 42px;
+    font-size: 0;
+    border: none;
+    background-color: var(--color-aquarius-600);
+}
+
+body > footer {
+    height: 290px;
+    width: 100%;
+    background: var(--color-back-pearl-900);
+    padding: var(--container-padding);
+    margin-top: 90px;
 }

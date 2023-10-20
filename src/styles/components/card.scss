@@ -50,7 +50,7 @@
 }
 
 
-.reading-time {
+.help-text {
     color: var(--color-back-pearl-400);
 }
 
@@ -58,7 +58,7 @@
 // this with container queries or be explicit about it
 
 @include tools.desktop {
-    .card-extended:nth-child(4n) {
+    .card:nth-child(4n) {
         background: var(--color-aquarius-900);
         flex-direction: row;
         grid-column: 1 / 4;
@@ -73,8 +73,7 @@
             // justify-content: flex-start;
         }
     }
-
-    .card:nth-child(8n) {
+    .card:nth-child(8n){
         flex-direction: row-reverse;
     }
 }
